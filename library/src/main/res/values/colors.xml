@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="coolGrey">#939597</color>
+    <color name="darkSkyBlue">#4494F0</color>
+    <color name="partTranslucent">#39000000</color>
+</resources>
