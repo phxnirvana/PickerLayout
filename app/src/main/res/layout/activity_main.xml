@@ -13,6 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="show"/>
+
+    <Button
+        android:id="@+id/simple3Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show3"/>
     <Button
         android:id="@+id/dateBtn"
         android:layout_width="match_parent"

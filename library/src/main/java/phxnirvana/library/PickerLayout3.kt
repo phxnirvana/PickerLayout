@@ -131,7 +131,7 @@ open class PickerLayout3<U : PickerDataInterface<S>, S : PickerDataInterface<T>,
      * @param pickerNum    picker 数
      */
     fun setLinkagePicker(optionsItems: List<U>?, pickerNum: Int) {
-        if (pickerNum < 1 && pickerNum > 3) {
+        if (pickerNum in 4..0) {
             throw IllegalArgumentException("PickerNum incorrect!!!")
         }
         this.pickerNum = pickerNum
